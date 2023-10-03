@@ -1,0 +1,44 @@
+/*
+MY COLOR PALETTE
+Color 1 - #EAD2AC
+Color 2 - ##0F7173
+Color 3 - ##C58882
+Color 4 - ###DF3B57
+Color 5 - ##1D201F
+*/
+
+body {
+    background-color:#EAD2AC;  
+    text-align: center;
+    
+}
+
+button {
+    
+    background-color:#C58882;
+    font-family: 'Playfair Display', serif;
+    color:#0F7173;
+    width: 300px;
+    padding-top: 10px;
+    margin-top: 50px;
+    border:none;
+        
+}
+
+button:hover {
+    
+    background-color:#DF3B57;
+    font-family: 'Playfair Display', serif;
+}
+
+h1 {
+    
+    font-family: 'Playfair Display', serif;
+    font-size: 60px    
+}
+
+h2 { 
+    font-family: 'Playfair Display', serif;
+    font-size: 40px; 
+}
+
