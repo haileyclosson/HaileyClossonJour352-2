@@ -1,316 +1,311 @@
 @media {
-    /*Phone styles here*/
-  /*This media query targets any screen smaller than 576px wide (see below)*/
-h1 {
-	font-family: "Playfair Display; serif";
-	color: aqua;
-	font-size: 70px;
-	text-align: center;
-	padding-top: 150px;
-}
+	/*Phone styles here*/
+	/*This media query targets any screen smaller than 576px wide (see below)*/
+	#headshot {
+		width: 170px;
+		height: 170px;
+		margin: 7px 70px 250px 163px;
+		border-radius: 200px;
+		border: 7px solid #CFCFCF;
+	}
+	#button {
+		background-color: #FF678C;
+		border: 0px;
+		border-radius: 10px;
+		padding: 10px 20px 10px 20px;
+		text-transform: uppercase;
+		display: block;
+		margin: 30px 70px 0px 195px;
+        font-family: 'Bebas Neue', sans-serif;
+        
+	}
+	#button a {
+		color: white;
+		text-decoration: none;
+	}
     
-  #headshot {
-    width:300px;
-    height: 300px;
-    margin:20px 0px 20px 0px;
-    border-radius: 500px;
-    border:10px solid #343C24;
+    #button:hover {
     
-}  
+    background-color:#629D56;
+    }
     
-    #button {
-    background-color:#E56B6F;
-    border:0px;
-    border-radius: 10px;
-    padding:10px 20px 10px 20px;
-    text-transform:uppercase;
-    margin:10px;
-    display:block;
-    margin:50px 325px;
-}
+	#body {
+		margin: 0px 0px 15px 0px;
+		background-color: #2C302A;
+	}
+	
+	content {
+		text-align: center;
+	}
+    
+	#Experience {}
+	.nav a {
+		font-family: 'Bebas Neue', sans-serif;
+		color: white;
+        font-size: 20px;
+	}
+	.nav a:hover {
+		text-decoration: underline;
+		color: white;
+	}
+	.nav-item:hover {
+		background-color:#629D56 ;
+	}
+	.nav {
+		background-color: #FF678C;
+		height: 40px;
+		width: 100%;
+		justify-content: center;
+		padding;
+		50px 20px 50px 20px;
+		border-radius: 50px;
+		font-family: 'Oswald', sans-serif;
+	}
+	h1 {
+		font-family: 'Bebas Neue', sans-serif;
+		color: white;
+		font-size: 65px;
+		text-align: center;
+		padding-top: 130px;
+        padding-left: 20px;
+        letter-spacing: -2px;
+	}
+	h2 {
+		font-family:'Source Serif 4', serif;
+		color: white;
+		font-size: 45px;
+		text-align: center;
+		padding-top: 40px;
+        padding-left: 20px;
+	}
+	h3 {
+		font-family:'Oswald', sans-serif;
+		color: white;
+		font-size: 30px;
+		padding-top: 40px;
+	}
+	h4 {
+		font-family: 'Bebas Neue', sans-serif;
+		color: white;
+		font-size: 30px;
+	}
+	h5 {
+		font-family: 'Bebas Neue', sans-serif;
+		color: white;
+		font-size: 25px;
+		padding-top: 5px;
+	}
+	h6 {
+		font-family: 'Bebas Neue', sans-serif;
+		color: white;
+		font-size: 15px;
+		padding-top: 5px;
+	}
+	h7 {
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 15px;   
+        
+    }
+	#Skills {
+		font-size: 18px;
+		padding-top: 20px;
+		text-align: center;
+        color: white;
+        font-family: 'Bebas Neue', sans-serif;
+	}
+    
+    li {
+        color: white;
+        font-family:'Source Serif 4', serif; 
+        font-size: 20px;
+    }
+    
+	#Education {
+		font-size: 18px;
+		padding-bottom: 50px;
+		font-family: fantasy;
+		text-align: center;
+        color: white;
+	}
+    
 
-#button a {
-    color:white;
-    text-decoration: none;
-}
-
-
-#body {
-	margin: 0px 0px 100px 0px;
-    background-color: darkmagenta;
-}
-
-data coder {
-	padding-top: 50px;
-}
-content {
-	text-align: center;
-}
-experience {}
-.nav a {
-	font-family: montserrat, sans-serif;
-	color: black;
-}
-.nav a:hover {
-	text-decoration: underline;
-	color: black;
-}
-.nav-item:hover {
-	background-color: azure;
-}
-.nav {
-	background-color: blanchedalmond;
-	height: 40px;
-	width: 100%;
-	justify-content: center;
-	padding;
-	50px 20px 50px 20px;
-	border-radius: 50px;
-	font-family: "Playfair Display; serif"
-}
-
-
-h1 {
-	font-family: "Playfair Display; serif";
-	color: aqua;
-	font-size: 70px;
-	text-align: center;
-	padding-top: 150px;
-}
-
-
-
-h2 {
-	font-family: "Playfair Display; serif";
-	color: aqua;
-	font-size: 30px;
-	text-align: center;
-	padding-top: 60px;
-}
-h3 {
-	font-family: "Playfair Display; serif";
-	color: aqua;
-	font-size: 30px;
-	padding-top: 40px;
-}
-
-h4 {
-	font-family: "Playfair Display; serif";
-	color: aqua;
-	font-size: 40px;
-	padding-top: 200px;
-}
-
-h5 {
-	font-family: "Playfair Display; serif";
-	color: aqua;
-	font-size: 30px;
-	padding-top: 5px;
-}
-h6 {
-	font-family: "Playfair Display; serif";
-	color: aqua;
-	font-size: 30px;
-	padding-top: 5px;
-}
-h7 {}
-skills {
-	font-size: 18px;
-	padding-top: 20px;
-	text-align: center;
-}
-education {
-	font-size: 18px;
-	padding-bottom: 50px;
-	font-family: fantasy;
-	text-align: center;
-}
 #topper {
 	height: 580px;
 	background-color: #966144;
-    background-image: url(library%20of%20congress%20for%20portfolio.jpg);
-    background-size:cover;
-    
+	background-image: url(background2.jpg);
+	background-size: cover;
 }
-
 p {
-	font-size: 20px;
-	font-family: 'Frank Ruhl Libre', serif;
+	font-size: 15px;
+	font-family:'Source Serif 4', serif;
+    color: white;
 }
 #footer {
-	height: 90px;
-	background-color: black;
-    background-size: auto;
+	background-color: #FF678C;
 	color: white;
 	text-align: center;
-	padding-top: 40px;
-    padding-bottom: 10px;
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
 }
-    
-}
-    
 
+}
 
 
 
 @media (min-width: 992px) {
-    /*Desktop-only styles here*/
-    /*This media query targets any screen that is at least 992px wide*/
-    /*Default Media Goes here, code that does not change*/
-h1 {
-	font-family: "Playfair Display; serif";
-	color: aqua;
-	font-size: 70px;
-	text-align: center;
-	padding-top: 150px;
-}
+	/*Desktop-only styles here*/
+	/*This media query targets any screen that is at least 992px wide*/
+	/*Default Media Goes here, code that does not change*/
+
+	#headshot {
+		width: 500px;
+		height: 500px;
+		margin: 20px 20px 20px 20px;
+		border-radius: 500px;
+		border: 10px solid #CFCFCF;
+	}
+	#button {
+		background-color: #FF678C;
+		border: 0px;
+		border-radius: 10px;
+		padding: 10px 20px 10px 20px;
+		text-transform: uppercase;
+		margin: 10px;
+		display: block;
+		margin: 50px 325px;
+        font-family: 'Bebas Neue', sans-serif;
+	}
+	#button a {
+		color: white;
+		text-decoration: none;
+	}
     
-    #headshot {
-    width:500px;
-    height: 500px;
-    margin:20px 0px 20px 0px;
-    border-radius: 500px;
-    border:10px solid #343C24;
-}
+   #button:hover {
     
+    background-color:#629D56;
+    }
     
-    #button {
-    background-color:#E56B6F;
-    border:0px;
-    border-radius: 10px;
-    padding:10px 20px 10px 20px;
-    text-transform:uppercase;
-    margin:10px;
-    display:block;
-    margin:50px 325px;
-}
-
-#button a {
-    color:white;
-    text-decoration: none;
-}
-
-
-#body {
-	margin: 0px 0px 100px 0px;
-    background-color: darkmagenta;
-}
-
-data coder {
-	padding-top: 50px;
-}
-content {
-	text-align: center;
-}
-experience {}
-.nav a {
-	font-family: montserrat, sans-serif;
-	color: black;
-}
-.nav a:hover {
-	text-decoration: underline;
-	color: black;
-}
-.nav-item:hover {
-	background-color: azure;
-}
-.nav {
-	background-color: blanchedalmond;
-	height: 40px;
-	width: 100%;
-	justify-content: center;
-	padding;
-	50px 20px 50px 20px;
-	border-radius: 50px;
-	font-family: "Playfair Display; serif"
-}
-
-
-h1 {
-	font-family: "Playfair Display; serif";
-	color: aqua;
-	font-size: 70px;
-	text-align: center;
-	padding-top: 150px;
-}
-
-
-
-
-
-h2 {
-	font-family: "Playfair Display; serif";
-	color: aqua;
-	font-size: 30px;
-	text-align: center;
-	padding-top: 60px;
-}
-h3 {
-	font-family: "Playfair Display; serif";
-	color: aqua;
-	font-size: 30px;
-	padding-top: 40px;
-}
-
-h4 {
-	font-family: "Playfair Display; serif";
-	color: aqua;
-	font-size: 40px;
-	padding-top: 200px;
-}
-
-h5 {
-	font-family: "Playfair Display; serif";
-	color: aqua;
-	font-size: 30px;
-	padding-top: 5px;
-}
-h6 {
-	font-family: "Playfair Display; serif";
-	color: aqua;
-	font-size: 30px;
-	padding-top: 5px;
-}
-h7 {}
+	#body {
+		margin: 0px 0px 15px 0px;
+		background-color: #2C302A;
+	}
+	
+	content {
+		text-align: center;
+	}
+	#Experience {}
     
-skills {
-	font-size: 18px;
-	padding-top: 20px;
-	text-align: center;
-}
-education {
-	font-size: 18px;
-	padding-bottom: 50px;
-	font-family: fantasy;
-	text-align: center;
-}
-#topper {
-	height: 580px;
-	background-color: #966144;
-    background-image: url(library%20of%20congress%20for%20portfolio.jpg);
-    background-size:cover;
+	.nav a {
+		font-family: 'Bebas Neue', sans-serif;
+		color: white;
+        font-size: 20px;
+	}
+	.nav a:hover {
+		text-decoration: underline;
+		color: white;
+	}
+	.nav-item:hover {
+		background-color:#629D56 ;
+	}
+	.nav {
+		background-color: #FF678C;
+		height: 40px;
+		width: 100%;
+		justify-content: center;
+		padding;
+		50px 20px 50px 20px;
+		border-radius: 50px;
+		font-family: 'Oswald', sans-serif;
+	}
+	h1 {
+		font-family: 'Bebas Neue', sans-serif;
+		color: white;
+		font-size: 90px;
+		text-align: center;
+		padding-top: 150px;
+        letter-spacing: -2px;
+	}
+	h2 {
+		font-family:'Source Serif 4', serif;
+		color: white;
+		font-size: 40px;
+		text-align: center;
+		padding-top: 60px;
+	}
+	h3 {
+		font-family:'Oswald', sans-serif;
+		color: white;
+		font-size: 30px;
+		padding-top: 40px;
+	}
+	h4 {
+		font-family: 'Bebas Neue', sans-serif;
+		color: white;
+		font-size: 25px;
+	}
+	h5 {
+		font-family: 'Bebas Neue', sans-serif;
+		color: white;
+		font-size: 25px;
+		padding-top: 5px;
+	}
+	h6 {
+		font-family:'Bebas Neue', sans-serif;
+		color: white;
+		font-size: 15px;
+		padding-top: 5px;
+	}
+	h7 {
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 15px;
+             
+    }
+	#Skills {
+		font-size: 18px;
+		padding-top: 20px;
+		text-align: center;
+        color: white;
+        font-family: 'Bebas Neue', sans-serif;
+	}
     
-}
-
-p {
-	font-size: 20px;
-	font-family: 'Frank Ruhl Libre', serif;
-}
-#footer {
-	height: 90px;
-	background-color: black;
-    background-size: auto;
-	color: white;
-	text-align: center;
-	padding-top: 40px;
-    padding-bottom: 10px;
-}
+    li {
+        color: white;
+        font-family: 'Source Serif 4', serif;
+        font-size: 20px;
+        
+    }
     
     
+	#Education {
+		font-size: 18px;
+		padding-bottom: 50px;
+		font-family: 'Bebas Neue', sans-serif;
+		text-align: center;
+        color: white;
+	}
+	#topper {
+		height: 580px;
+		background-color: #966144;
+		background-image: url(background2.jpg);
+        
+		background-size: cover;
+	}
+	p {
+		font-size: 20px;
+		font-family:'Source Serif 4', serif;
+        color: white;
+	}
     
-    
- 
-       }
+	#footer {
+		background-color: #FF678C;
+		color: white;
+		text-align: center;
+		position: fixed;
+		bottom: 0px;
+		left: 0px;
+	}
+}
 
 
 
